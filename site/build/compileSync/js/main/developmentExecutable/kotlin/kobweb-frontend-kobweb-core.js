@@ -24,7 +24,7 @@
   var imul = Math.imul;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.d2;
   var charArrayOf = kotlin_kotlin.$_$.o9;
-  var trimStart = kotlin_kotlin.$_$.dd;
+  var trimStart = kotlin_kotlin.$_$.fd;
   var get_http = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.w2;
   var Unit_getInstance = kotlin_kotlin.$_$.j4;
   var protoOf = kotlin_kotlin.$_$.bb;
@@ -35,9 +35,9 @@
   var getPropertyCallableRef = kotlin_kotlin.$_$.aa;
   var KMutableProperty0 = kotlin_kotlin.$_$.pb;
   var KMutableProperty1 = kotlin_kotlin.$_$.qb;
-  var lazy = kotlin_kotlin.$_$.qe;
-  var THROW_CCE = kotlin_kotlin.$_$.wd;
-  var Annotation = kotlin_kotlin.$_$.id;
+  var lazy = kotlin_kotlin.$_$.se;
+  var THROW_CCE = kotlin_kotlin.$_$.yd;
+  var Annotation = kotlin_kotlin.$_$.kd;
   var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
   var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.t;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
@@ -50,7 +50,7 @@
   var StyleSheet = kotlin_org_jetbrains_compose_html_html_core.$_$.d3;
   var objectMeta = kotlin_kotlin.$_$.ab;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
-  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.xe;
+  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.ze;
   var toString = kotlin_kotlin.$_$.eb;
   var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.q1;
   var getValue = kotlin_kotlin.$_$.s6;
@@ -65,9 +65,9 @@
   var staticCompositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a1;
   var interfaceMeta = kotlin_kotlin.$_$.ea;
   var A$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.i5;
-  var THROW_IAE = kotlin_kotlin.$_$.xd;
+  var THROW_IAE = kotlin_kotlin.$_$.zd;
   var enumEntries = kotlin_kotlin.$_$.i9;
-  var Enum = kotlin_kotlin.$_$.ld;
+  var Enum = kotlin_kotlin.$_$.nd;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.c1;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.i;
   var charSequenceLength = kotlin_kotlin.$_$.r9;
@@ -80,10 +80,10 @@
   var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.s;
   var split = kotlin_kotlin.$_$.qc;
   var getOrNull = kotlin_kotlin.$_$.r6;
-  var Exception = kotlin_kotlin.$_$.nd;
+  var Exception = kotlin_kotlin.$_$.pd;
   var Exception_init_$Init$ = kotlin_kotlin.$_$.h1;
   var captureStack = kotlin_kotlin.$_$.n9;
-  var ensureNotNull = kotlin_kotlin.$_$.oe;
+  var ensureNotNull = kotlin_kotlin.$_$.qe;
   var isBlank = kotlin_kotlin.$_$.fc;
   var startsWith_0 = kotlin_kotlin.$_$.tc;
   var endsWith = kotlin_kotlin.$_$.cc;
@@ -2274,15 +2274,16 @@
   }
   //region block: exports
   _.$_$ = _.$_$ || {};
-  _.$_$.a = initKobweb;
-  _.$_$.b = KobwebApp$composable;
-  _.$_$.c = rememberPageContext$composable;
-  _.$_$.d = Anchor$composable;
-  _.$_$.e = Router;
-  _.$_$.f = prependIf;
-  _.$_$.g = UpdateHistoryMode_REPLACE_getInstance;
-  _.$_$.h = AppGlobals_getInstance;
-  _.$_$.i = Companion_getInstance_3;
+  _.$_$.a = get_api;
+  _.$_$.b = initKobweb;
+  _.$_$.c = KobwebApp$composable;
+  _.$_$.d = rememberPageContext$composable;
+  _.$_$.e = Anchor$composable;
+  _.$_$.f = Router;
+  _.$_$.g = prependIf;
+  _.$_$.h = UpdateHistoryMode_REPLACE_getInstance;
+  _.$_$.i = AppGlobals_getInstance;
+  _.$_$.j = Companion_getInstance_3;
   //endregion
   return _;
 }));

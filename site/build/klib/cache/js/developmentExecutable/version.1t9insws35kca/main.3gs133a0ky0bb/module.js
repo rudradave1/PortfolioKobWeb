@@ -1,23 +1,26 @@
 (function (root, factory) {
   if (typeof define === 'function' && define.amd)
-    define(['exports', './kobweb-frontend-kobweb-core.js', './kobweb-frontend-silk-foundation.js', './kotlin-kotlin-stdlib.js', './compose-multiplatform-core-runtime.js', './html-internal-html-core-runtime.js', './kobweb-frontend-silk-widgets.js', './kobweb-frontend-silk-widgets-kobweb.js', './html-html-core.js', './kobweb-frontend-compose-html-ext.js', './kobweb-frontend-kobweb-silk.js', './kotlinx.coroutines-kotlinx-coroutines-core-js-ir.js', './kobweb-frontend-kobweb-compose.js'], factory);
+    define(['exports', './kotlin-kotlin-stdlib.js', './kobweb-frontend-kobweb-core.js', './kobweb-frontend-silk-foundation.js', './compose-multiplatform-core-runtime.js', './html-internal-html-core-runtime.js', './kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.js', './kobweb-frontend-silk-widgets.js', './kobweb-frontend-silk-widgets-kobweb.js', './html-html-core.js', './kobweb-frontend-compose-html-ext.js', './kobweb-frontend-kobweb-silk.js', './kotlinx.coroutines-kotlinx-coroutines-core-js-ir.js', './kobweb-frontend-kobweb-compose.js'], factory);
   else if (typeof exports === 'object')
-    factory(module.exports, require('./kobweb-frontend-kobweb-core.js'), require('./kobweb-frontend-silk-foundation.js'), require('./kotlin-kotlin-stdlib.js'), require('./compose-multiplatform-core-runtime.js'), require('./html-internal-html-core-runtime.js'), require('./kobweb-frontend-silk-widgets.js'), require('./kobweb-frontend-silk-widgets-kobweb.js'), require('./html-html-core.js'), require('./kobweb-frontend-compose-html-ext.js'), require('./kobweb-frontend-kobweb-silk.js'), require('./kotlinx.coroutines-kotlinx-coroutines-core-js-ir.js'), require('./kobweb-frontend-kobweb-compose.js'));
+    factory(module.exports, require('./kotlin-kotlin-stdlib.js'), require('./kobweb-frontend-kobweb-core.js'), require('./kobweb-frontend-silk-foundation.js'), require('./compose-multiplatform-core-runtime.js'), require('./html-internal-html-core-runtime.js'), require('./kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.js'), require('./kobweb-frontend-silk-widgets.js'), require('./kobweb-frontend-silk-widgets-kobweb.js'), require('./html-html-core.js'), require('./kobweb-frontend-compose-html-ext.js'), require('./kobweb-frontend-kobweb-silk.js'), require('./kotlinx.coroutines-kotlinx-coroutines-core-js-ir.js'), require('./kobweb-frontend-kobweb-compose.js'));
   else {
+    if (typeof this['kotlin-kotlin-stdlib'] === 'undefined') {
+      throw new Error("Error loading module 'com.rudra.kotfolio:site'. Its dependency 'kotlin-kotlin-stdlib' was not found. Please, check whether 'kotlin-kotlin-stdlib' is loaded prior to 'com.rudra.kotfolio:site'.");
+    }
     if (typeof this['kobweb-frontend-kobweb-core'] === 'undefined') {
       throw new Error("Error loading module 'com.rudra.kotfolio:site'. Its dependency 'kobweb-frontend-kobweb-core' was not found. Please, check whether 'kobweb-frontend-kobweb-core' is loaded prior to 'com.rudra.kotfolio:site'.");
     }
     if (typeof this['kobweb-frontend-silk-foundation'] === 'undefined') {
       throw new Error("Error loading module 'com.rudra.kotfolio:site'. Its dependency 'kobweb-frontend-silk-foundation' was not found. Please, check whether 'kobweb-frontend-silk-foundation' is loaded prior to 'com.rudra.kotfolio:site'.");
     }
-    if (typeof this['kotlin-kotlin-stdlib'] === 'undefined') {
-      throw new Error("Error loading module 'com.rudra.kotfolio:site'. Its dependency 'kotlin-kotlin-stdlib' was not found. Please, check whether 'kotlin-kotlin-stdlib' is loaded prior to 'com.rudra.kotfolio:site'.");
-    }
     if (typeof this['compose-multiplatform-core-runtime'] === 'undefined') {
       throw new Error("Error loading module 'com.rudra.kotfolio:site'. Its dependency 'compose-multiplatform-core-runtime' was not found. Please, check whether 'compose-multiplatform-core-runtime' is loaded prior to 'com.rudra.kotfolio:site'.");
     }
     if (typeof this['html-internal-html-core-runtime'] === 'undefined') {
       throw new Error("Error loading module 'com.rudra.kotfolio:site'. Its dependency 'html-internal-html-core-runtime' was not found. Please, check whether 'html-internal-html-core-runtime' is loaded prior to 'com.rudra.kotfolio:site'.");
+    }
+    if (typeof kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat === 'undefined') {
+      throw new Error("Error loading module 'com.rudra.kotfolio:site'. Its dependency 'kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat' was not found. Please, check whether 'kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat' is loaded prior to 'com.rudra.kotfolio:site'.");
     }
     if (typeof this['kobweb-frontend-silk-widgets'] === 'undefined') {
       throw new Error("Error loading module 'com.rudra.kotfolio:site'. Its dependency 'kobweb-frontend-silk-widgets' was not found. Please, check whether 'kobweb-frontend-silk-widgets' is loaded prior to 'com.rudra.kotfolio:site'.");
@@ -40,21 +43,22 @@
     if (typeof this['kobweb-frontend-kobweb-compose'] === 'undefined') {
       throw new Error("Error loading module 'com.rudra.kotfolio:site'. Its dependency 'kobweb-frontend-kobweb-compose' was not found. Please, check whether 'kobweb-frontend-kobweb-compose' is loaded prior to 'com.rudra.kotfolio:site'.");
     }
-    root['com.rudra.kotfolio:site'] = factory(typeof this['com.rudra.kotfolio:site'] === 'undefined' ? {} : this['com.rudra.kotfolio:site'], this['kobweb-frontend-kobweb-core'], this['kobweb-frontend-silk-foundation'], this['kotlin-kotlin-stdlib'], this['compose-multiplatform-core-runtime'], this['html-internal-html-core-runtime'], this['kobweb-frontend-silk-widgets'], this['kobweb-frontend-silk-widgets-kobweb'], this['html-html-core'], this['kobweb-frontend-compose-html-ext'], this['kobweb-frontend-kobweb-silk'], this['kotlinx.coroutines-kotlinx-coroutines-core-js-ir'], this['kobweb-frontend-kobweb-compose']);
+    root['com.rudra.kotfolio:site'] = factory(typeof this['com.rudra.kotfolio:site'] === 'undefined' ? {} : this['com.rudra.kotfolio:site'], this['kotlin-kotlin-stdlib'], this['kobweb-frontend-kobweb-core'], this['kobweb-frontend-silk-foundation'], this['compose-multiplatform-core-runtime'], this['html-internal-html-core-runtime'], kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat, this['kobweb-frontend-silk-widgets'], this['kobweb-frontend-silk-widgets-kobweb'], this['html-html-core'], this['kobweb-frontend-compose-html-ext'], this['kobweb-frontend-kobweb-silk'], this['kotlinx.coroutines-kotlinx-coroutines-core-js-ir'], this['kobweb-frontend-kobweb-compose']);
   }
-}(this, function (_, kotlin_com_varabyte_kobweb_kobweb_core, kotlin_com_varabyte_kobweb_silk_foundation, kotlin_kotlin, kotlin_org_jetbrains_compose_runtime_runtime, kotlin_org_jetbrains_compose_html_internal_html_core_runtime, kotlin_com_varabyte_kobweb_silk_widgets, kotlin_com_varabyte_kobweb_silk_widgets_kobweb, kotlin_org_jetbrains_compose_html_html_core, kotlin_com_varabyte_kobweb_compose_html_ext, kotlin_com_varabyte_kobweb_kobweb_silk, kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core, kotlin_com_varabyte_kobweb_kobweb_compose) {
+}(this, function (_, kotlin_kotlin, kotlin_com_varabyte_kobweb_kobweb_core, kotlin_com_varabyte_kobweb_silk_foundation, kotlin_org_jetbrains_compose_runtime_runtime, kotlin_org_jetbrains_compose_html_internal_html_core_runtime, kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat, kotlin_com_varabyte_kobweb_silk_widgets, kotlin_com_varabyte_kobweb_silk_widgets_kobweb, kotlin_org_jetbrains_compose_html_html_core, kotlin_com_varabyte_kobweb_compose_html_ext, kotlin_com_varabyte_kobweb_kobweb_silk, kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core, kotlin_com_varabyte_kobweb_kobweb_compose) {
   'use strict';
   //region block: imports
   var imul = Math.imul;
-  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.i;
-  var Router = kotlin_com_varabyte_kobweb_kobweb_core.$_$.e;
-  var initKobweb = kotlin_com_varabyte_kobweb_kobweb_core.$_$.a;
+  var ensureNotNull = kotlin_kotlin.$_$.qe;
+  var get_api = kotlin_com_varabyte_kobweb_kobweb_core.$_$.a;
+  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.j;
+  var Router = kotlin_com_varabyte_kobweb_kobweb_core.$_$.f;
+  var initKobweb = kotlin_com_varabyte_kobweb_kobweb_core.$_$.b;
   var set_additionalSilkInitialization = kotlin_com_varabyte_kobweb_silk_foundation.$_$.e1;
   var removePrefix = kotlin_kotlin.$_$.lc;
-  var UpdateHistoryMode_REPLACE_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
-  var ensureNotNull = kotlin_kotlin.$_$.oe;
-  var AppGlobals_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.h;
-  var to = kotlin_kotlin.$_$.ze;
+  var UpdateHistoryMode_REPLACE_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.h;
+  var AppGlobals_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.i;
+  var to = kotlin_kotlin.$_$.bf;
   var mapOf = kotlin_kotlin.$_$.h7;
   var composableLambdaInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a;
   var renderComposable$composable = kotlin_org_jetbrains_compose_html_internal_html_core_runtime.$_$.e;
@@ -65,11 +69,18 @@
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   var Companion_getInstance_0 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.j1;
-  var THROW_CCE = kotlin_kotlin.$_$.wd;
+  var THROW_CCE = kotlin_kotlin.$_$.yd;
   var renderWithDeferred$composable = kotlin_com_varabyte_kobweb_silk_foundation.$_$.d1;
   var protoOf = kotlin_kotlin.$_$.bb;
   var objectMeta = kotlin_kotlin.$_$.ab;
   var setMetadataFor = kotlin_kotlin.$_$.cb;
+  var removeClass = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.d;
+  var hasClass = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.c;
+  var toString = kotlin_kotlin.$_$.af;
+  var toInt = kotlin_kotlin.$_$.bd;
+  var charSequenceLength = kotlin_kotlin.$_$.r9;
+  var toBoolean = kotlin_kotlin.$_$.zc;
+  var isBlank = kotlin_kotlin.$_$.fc;
   var VOID = kotlin_kotlin.$_$.e;
   var removeSuffix = kotlin_kotlin.$_$.mc;
   var initSilkWidgets = kotlin_com_varabyte_kobweb_silk_widgets.$_$.q;
@@ -136,7 +147,7 @@
   var get_ButtonStyle = kotlin_com_varabyte_kobweb_silk_widgets.$_$.b;
   var addVariantBase = kotlin_com_varabyte_kobweb_silk_foundation.$_$.l;
   var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u3;
-  var noWhenBranchMatchedException = kotlin_kotlin.$_$.re;
+  var noWhenBranchMatchedException = kotlin_kotlin.$_$.te;
   var set_background = kotlin_com_varabyte_kobweb_silk_widgets.$_$.s;
   var set_color = kotlin_com_varabyte_kobweb_silk_widgets.$_$.u;
   var fontWeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k1;
@@ -197,13 +208,13 @@
   var CenterVertically_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b4;
   var Row$composable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c;
   var KMutableProperty0 = kotlin_kotlin.$_$.pb;
-  var THROW_ISE = kotlin_kotlin.$_$.yd;
+  var THROW_ISE = kotlin_kotlin.$_$.ae;
   var getLocalDelegateReference = kotlin_kotlin.$_$.y9;
   var padding_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
   var Spacer$composable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d;
   var Companion_getInstance_14 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.n3;
   var fontSize_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.h1;
-  var rememberPageContext$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
+  var rememberPageContext$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
   var Start_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s3;
   var Div$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.l5;
   var toAttrs$composable = kotlin_com_varabyte_kobweb_silk_foundation.$_$.y;
@@ -212,9 +223,9 @@
   var toAnimation$composable = kotlin_com_varabyte_kobweb_silk_foundation.$_$.c;
   var animation = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.h;
   var CenterStart_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a4;
-  var THROW_IAE = kotlin_kotlin.$_$.xd;
+  var THROW_IAE = kotlin_kotlin.$_$.zd;
   var enumEntries = kotlin_kotlin.$_$.i9;
-  var Enum = kotlin_kotlin.$_$.ld;
+  var Enum = kotlin_kotlin.$_$.nd;
   var HamburgerIcon$composable = kotlin_com_varabyte_kobweb_silk_widgets.$_$.d;
   var CloseIcon$composable = kotlin_com_varabyte_kobweb_silk_widgets.$_$.c;
   var gap = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l1;
@@ -280,7 +291,7 @@
   var Top_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i4;
   var TopStart_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.h4;
   var ColorScheme = kotlin_com_varabyte_kobweb_silk_foundation.$_$.l1;
-  var Pair = kotlin_kotlin.$_$.td;
+  var Pair = kotlin_kotlin.$_$.vd;
   var listOf = kotlin_kotlin.$_$.f7;
   //endregion
   //region block: pre-declaration
@@ -311,7 +322,38 @@
   setMetadataFor(Colors, 'Colors', objectMeta);
   setMetadataFor(Res, 'Res', objectMeta);
   //endregion
+  function forceReloadNow() {
+    window.stop();
+    window.location.reload();
+  }
+  function handleServerStatusEvents() {
+    var status = ensureNotNull(document.getElementById('status'));
+    var lastVersion = {_v: null};
+    var shouldReload = {_v: false};
+    // Inline function 'org.w3c.dom.get' call
+    // Inline function 'kotlin.js.asDynamic' call
+    var tmp$ret$1 = status.children[0];
+    var warningIcon = ensureNotNull(tmp$ret$1);
+    // Inline function 'org.w3c.dom.get' call
+    // Inline function 'kotlin.js.asDynamic' call
+    var tmp$ret$3 = status.children[1];
+    var spinnerIcon = ensureNotNull(tmp$ret$3);
+    // Inline function 'org.w3c.dom.get' call
+    // Inline function 'kotlin.js.asDynamic' call
+    var tmp$ret$5 = status.children[2];
+    var statusText = ensureNotNull(tmp$ret$5);
+    status.addEventListener('transitionend', handleServerStatusEvents$lambda(status, shouldReload));
+    // Inline function 'org.w3c.dom.EventSourceInit' call
+    var o = {};
+    o['withCredentials'] = true;
+    var eventSource = new EventSource('/api/kobweb-status', o);
+    eventSource.addEventListener('version', handleServerStatusEvents$lambda_0(lastVersion, status, shouldReload));
+    eventSource.addEventListener('status', handleServerStatusEvents$lambda_1(warningIcon, spinnerIcon, statusText, status));
+    eventSource.onerror = handleServerStatusEvents$lambda_2(eventSource);
+  }
   function main() {
+    handleServerStatusEvents();
+    get_api(window).set_logOnError_wi584t_k$(true);
     Companion_getInstance().set_wjk6wo_k$('');
     var router = new Router();
     initKobweb(router, main$lambda);
@@ -334,7 +376,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 11) === 2) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(-994802423, $changed, -1, 'ComposableSingletons$MainKt.lambda-1.<anonymous> (main.kt:15)');
+        traceEventStart(-994802423, $changed, -1, 'ComposableSingletons$MainKt.lambda-1.<anonymous> (main.kt:86)');
       }
       HomePage$composable($composer_0, 0);
       if (isTraceInProgress()) {
@@ -354,7 +396,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 11) === 2) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(-1296252800, $changed, -1, 'ComposableSingletons$MainKt.lambda-2.<anonymous> (main.kt:16)');
+        traceEventStart(-1296252800, $changed, -1, 'ComposableSingletons$MainKt.lambda-2.<anonymous> (main.kt:87)');
       }
       AboutPage$composable($composer_0, 0);
       if (isTraceInProgress()) {
@@ -377,7 +419,7 @@
       $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(it) ? 4 : 2);
     if (!(($dirty & 91) === 18) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(1940211355, $dirty, -1, 'ComposableSingletons$MainKt.lambda-3.<anonymous> (main.kt:71)');
+        traceEventStart(1940211355, $dirty, -1, 'ComposableSingletons$MainKt.lambda-3.<anonymous> (main.kt:142)');
       }
       // Inline function 'kotlin.run' call
       // Inline function 'kotlin.contracts.contract' call
@@ -421,7 +463,7 @@
       var tmp;
       if (!(($changed & 11) === 2) ? true : !$composer_0.get_skipping_3owdve_k$()) {
         if (isTraceInProgress()) {
-          traceEventStart(2103839155, $changed, -1, 'ComposableSingletons$MainKt.lambda-3.<anonymous>.<anonymous> (main.kt:71)');
+          traceEventStart(2103839155, $changed, -1, 'ComposableSingletons$MainKt.lambda-3.<anonymous>.<anonymous> (main.kt:142)');
         }
         $it($composer_0, 0);
         var tmp_0;
@@ -465,6 +507,80 @@
     if (ComposableSingletons$MainKt_instance == null)
       new ComposableSingletons$MainKt();
     return ComposableSingletons$MainKt_instance;
+  }
+  function handleServerStatusEvents$lambda($status, $shouldReload) {
+    return function (it) {
+      var tmp;
+      if (hasClass($status, 'fade-out')) {
+        removeClass($status, ['fade-out']);
+        var tmp_0;
+        if ($shouldReload._v) {
+          forceReloadNow();
+          tmp_0 = Unit_getInstance();
+        }
+        tmp = tmp_0;
+      }
+      return Unit_getInstance();
+    };
+  }
+  function handleServerStatusEvents$lambda_0($lastVersion, $status, $shouldReload) {
+    return function (evt) {
+      var version = toInt(toString((evt instanceof MessageEvent ? evt : THROW_CCE()).data));
+      var tmp;
+      if ($lastVersion._v == null) {
+        $lastVersion._v = version;
+        tmp = Unit_getInstance();
+      }
+      var tmp_0;
+      if (!($lastVersion._v === version)) {
+        $lastVersion._v = version;
+        var tmp_1;
+        // Inline function 'kotlin.text.isNotEmpty' call
+        var this_0 = $status.className;
+        if (charSequenceLength(this_0) > 0) {
+          $shouldReload._v = true;
+          tmp_1 = Unit_getInstance();
+        } else {
+          forceReloadNow();
+          tmp_1 = Unit_getInstance();
+        }
+        tmp_0 = tmp_1;
+      }
+      return Unit_getInstance();
+    };
+  }
+  function handleServerStatusEvents$lambda_1($warningIcon, $spinnerIcon, $statusText, $status) {
+    return function (evt) {
+      var tmp = JSON;
+      var values = tmp.parse(toString((evt instanceof MessageEvent ? evt : THROW_CCE()).data));
+      var tmp_0 = values.text;
+      var text = (!(tmp_0 == null) ? typeof tmp_0 === 'string' : false) ? tmp_0 : THROW_CCE();
+      var tmp_1 = values.isError;
+      var isError = toBoolean((!(tmp_1 == null) ? typeof tmp_1 === 'string' : false) ? tmp_1 : THROW_CCE());
+      var tmp_2;
+      // Inline function 'kotlin.text.isNotBlank' call
+      if (!isBlank(text)) {
+        $warningIcon.className = isError ? 'visible' : 'hidden';
+        $spinnerIcon.className = isError ? 'hidden' : 'visible';
+        $statusText.innerHTML = '<i>' + text + '<\/i>';
+        $status.className = 'fade-in';
+        tmp_2 = Unit_getInstance();
+      } else {
+        var tmp_3;
+        if ($status.className === 'fade-in') {
+          $status.className = 'fade-out';
+          tmp_3 = Unit_getInstance();
+        }
+        tmp_2 = tmp_3;
+      }
+      return Unit_getInstance();
+    };
+  }
+  function handleServerStatusEvents$lambda_2($eventSource) {
+    return function (it) {
+      $eventSource.close();
+      return Unit_getInstance();
+    };
   }
   function main$lambda(ctx) {
     ctx.get_router_j3zccy_k$().register$composable$default_1eoqzg_k$('/', VOID, ComposableSingletons$MainKt_getInstance().lambda_1_r8sbbp_1);
@@ -521,7 +637,7 @@
       var tmp;
       if (!(($changed & 11) === 2) ? true : !$composer_0.get_skipping_3owdve_k$()) {
         if (isTraceInProgress()) {
-          traceEventStart(-1190994075, $changed, -1, 'main.<anonymous>.<anonymous> (main.kt:71)');
+          traceEventStart(-1190994075, $changed, -1, 'main.<anonymous>.<anonymous> (main.kt:142)');
         }
         $router.renderActivePage$composable_z512mx_k$(ComposableSingletons$MainKt_getInstance().lambda_3_r8sbbn_1, $composer_0, 6, 0);
         var tmp_0;
@@ -548,7 +664,7 @@
       var tmp;
       if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
         if (isTraceInProgress()) {
-          traceEventStart(1108811911, $changed, -1, 'main.<anonymous> (main.kt:70)');
+          traceEventStart(1108811911, $changed, -1, 'main.<anonymous> (main.kt:141)');
         }
         // Inline function 'kotlin.run' call
         // Inline function 'kotlin.contracts.contract' call
@@ -10201,7 +10317,7 @@
     this.RUDRA_DAVE_1 = 'Rudra Dave';
     this.AND_NICE_TO_MEET_YOU_1 = 'and Nice to meet you!';
     this.RESUME_1 = 'Resume';
-    this.ABOUT_ME_TEXT_1 = 'Rudra is a versatile Software Developer proficient in both Android app development. Additionally, he demonstrates a hands-on approach to crafting elegant User Interfaces, showcasing a talent for bug resolution and consistently delivering optimal results.';
+    this.ABOUT_ME_TEXT_1 = "With four years of experience, Rudra is a proficient Android developer, adept in Java/Kotlin and the Android ecosystem. Committed to continual improvement, he stays updated with the latest developments to enhance user experiences. Rudra's attention to detail ensures his apps stand out with seamless functionality and user satisfaction.";
     this.ABOUT_ME_TITLE_1 = 'About me.';
     this.EXPERIENCE_TITLE_1 = 'Work Experience.';
     this.EXPERIENCE_SECTION_TEXT_1 = 'I\u2019m a Software Developer Engineer, specializing in Android app Development with ';

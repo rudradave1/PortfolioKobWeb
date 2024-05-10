@@ -19,7 +19,7 @@ object Constants {
     const val AND_NICE_TO_MEET_YOU = "and Nice to meet you!"
     const val RESUME = "Resume"
 
-    const val ABOUT_ME_TEXT = "Rudra is a versatile Software Developer proficient in both Android app development. Additionally, he demonstrates a hands-on approach to crafting elegant User Interfaces, showcasing a talent for bug resolution and consistently delivering optimal results."
+    const val ABOUT_ME_TEXT = "With four years of experience, Rudra is a proficient Android developer, adept in Java/Kotlin and the Android ecosystem. Committed to continual improvement, he stays updated with the latest developments to enhance user experiences. Rudra's attention to detail ensures his apps stand out with seamless functionality and user satisfaction."
     const val ABOUT_ME_TITLE = "About me."
 
     const val EXPERIENCE_TITLE = "Work Experience."

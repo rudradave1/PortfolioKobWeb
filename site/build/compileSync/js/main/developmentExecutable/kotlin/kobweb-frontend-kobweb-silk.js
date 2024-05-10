@@ -29,8 +29,8 @@
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.j1;
-  var THROW_CCE = kotlin_kotlin.$_$.wd;
-  var KobwebApp$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.b;
+  var THROW_CCE = kotlin_kotlin.$_$.yd;
+  var KobwebApp$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
   var Unit_getInstance = kotlin_kotlin.$_$.j4;
   var setSilkWidgetVariables$composable = kotlin_com_varabyte_kobweb_silk_widgets.$_$.r;

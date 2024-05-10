@@ -1,8 +1,9 @@
-2024-05-10 22:27:30.615 [main] DEBUG ktor.application - Java Home: C:\Program Files\Java
-2024-05-10 22:27:30.621 [main] DEBUG ktor.application - Class Loader: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93: [file:/C:/Users/rdRud/Kotfolio/site/.kobweb/server/server.jar!/ch]
-2024-05-10 22:27:30.625 [main] INFO  ktor.application - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
-2024-05-10 22:27:30.649 [main] WARN  ktor.application - API jar specified but does not exist! Please fix conf.yaml. Invalid path: "build\libs\kotfolio.jar"
-2024-05-10 22:27:30.718 [main] INFO  ktor.application - Application started in 0.18 seconds.
-2024-05-10 22:27:31.033 [main] INFO  ktor.application - Responding at http://127.0.0.1:8081
-2024-05-10 22:35:00.622 [kotlinx.coroutines.DefaultExecutor] INFO  ktor.application - Kobweb server shutting down...
-2024-05-10 22:35:01.747 [kotlinx.coroutines.DefaultExecutor] INFO  ktor.application - Server finished shutting down.
+2024-05-10 23:01:19.442 [main] DEBUG ktor.application - Java Home: C:\Program Files\Java
+2024-05-10 23:01:19.446 [main] DEBUG ktor.application - Class Loader: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93: [file:/C:/Users/rdRud/Kotfolio/site/.kobweb/server/server.jar!/ch]
+2024-05-10 23:01:19.452 [main] INFO  ktor.application - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
+2024-05-10 23:01:19.474 [main] WARN  ktor.application - API jar specified but does not exist! Please fix conf.yaml. Invalid path: "build\libs\kotfolio.jar"
+2024-05-10 23:01:19.546 [main] INFO  ktor.application - Application started in 0.202 seconds.
+2024-05-10 23:01:19.897 [main] INFO  ktor.application - Responding at http://127.0.0.1:8081
+2024-05-10 23:02:07.933 [eventLoopGroupProxy-4-5] DEBUG ktor.application - Client connected and is requesting kobweb status events.
+2024-05-10 23:03:54.584 [eventLoopGroupProxy-4-5] DEBUG ktor.application - Stopped sending kobweb status events, probably because client disconnected or server is shutting down. (ChannelWriteException: Cannot write to a channel)
+2024-05-10 23:03:55.023 [eventLoopGroupProxy-4-4] DEBUG ktor.application - Client connected and is requesting kobweb status events.

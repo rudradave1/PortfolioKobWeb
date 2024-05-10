@@ -64,10 +64,10 @@
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   var Companion_getInstance_5 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.j1;
-  var THROW_CCE = kotlin_kotlin.$_$.wd;
+  var THROW_CCE = kotlin_kotlin.$_$.yd;
   var Div$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.l5;
-  var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_kobweb_core.$_$.i;
-  var prependIf = kotlin_com_varabyte_kobweb_kobweb_core.$_$.f;
+  var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_kobweb_core.$_$.j;
+  var prependIf = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
   var toModifier$composable = kotlin_com_varabyte_kobweb_silk_foundation.$_$.z;
   var Img$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.t5;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
@@ -80,7 +80,7 @@
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
   var ComponentStyle = kotlin_com_varabyte_kobweb_silk_foundation.$_$.j;
   var StyleVariable_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.k;
-  var Anchor$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
+  var Anchor$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.e;
   var get_link = kotlin_com_varabyte_kobweb_silk_foundation.$_$.v;
   var get_visited = kotlin_com_varabyte_kobweb_silk_foundation.$_$.a1;
   var get_hover = kotlin_com_varabyte_kobweb_silk_foundation.$_$.u;

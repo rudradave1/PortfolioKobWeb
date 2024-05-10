@@ -5,75 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30dfddb9-ed3c-4239-a2c1-de2ae894510e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/utils/Constants.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Projects/defineEasy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Tools/dockerlogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/.kobweb/site/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/images/Photographs/Image 9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/.kobweb/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/kotfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/.kobweb/site/kotfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.kobweb/site/kotfolio.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/site/.kobweb/site/kotfolio.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/site/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/AppEntry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/AppEntry.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/AppStyles.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/AppStyles.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/SiteTheme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/SiteTheme.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/layouts/MarkdownLayout.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/layouts/MarkdownLayout.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/layouts/PageLayout.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/layouts/PageLayout.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/model/WorkExperience.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/model/WorkExperience.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/sections/About.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/sections/About.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/sections/Experience.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/sections/Experience.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/sections/Footer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/sections/Footer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/sections/Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/sections/Home.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/sections/NavHeader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/sections/NavHeader.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/sections/Photography.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/sections/Projects.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/sections/Projects.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/sections/SkillsAndTools.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/sections/SkillsAndTools.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/styles/AboutStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/styles/AboutStyle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/styles/BackgroundImageStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/styles/BackgroundImageStyle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/styles/ButtonStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/styles/ButtonStyle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/styles/HomeStyles.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/styles/HomeStyles.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/styles/ProjectStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/styles/ProjectStyle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/styles/SectionStyles.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/styles/SectionStyles.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/styles/WorkExperienceItemStyles.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/styles/WorkExperienceItemStyles.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/widgets/AppearanceAwareImage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/widgets/AppearanceAwareImage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/widgets/BackToTopButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/widgets/BackToTopButton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/widgets/GlassBox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/widgets/GlassBox.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/widgets/IconButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/widgets/IconButton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/widgets/PhotographImage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/widgets/PhotographImage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/widgets/RoundedImage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/widgets/RoundedImage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/widgets/SectionTitle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/widgets/SectionTitle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/components/widgets/WorkExperienceBlock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/components/widgets/WorkExperienceBlock.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/pages/Index.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/pages/Index.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/utils/Constants.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/utils/CustomColorSchemes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/utils/CustomColorSchemes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/utils/Helper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/utils/Helper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/binayshaw7777/kotfolio/utils/Res.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/utils/Res.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/jsMain/resources/public/images/Photographs/Image 9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/jsMain/kotlin/com/rudra/kotfolio/utils/Constants.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rudradave1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rudradave1/PortfolioKobWeb.git",
+    "accountId": "18ac9b0f-12b0-4770-8e00-ee7c65ace750"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -112,7 +57,7 @@
   "keyToString": {
     "Gradle.Build Kotfolio.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/rdRud/Kotfolio/site/src/jsMain/resources/public/images/Tools",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"

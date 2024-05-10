@@ -10930,6 +10930,17 @@ if (typeof String.prototype.startsWith === 'undefined') {
     }
     return tmp;
   }
+  function toBoolean(_this__u8e3s4) {
+    var tmp;
+    if (!(_this__u8e3s4 == null)) {
+      // Inline function 'kotlin.text.lowercase' call
+      // Inline function 'kotlin.js.asDynamic' call
+      tmp = _this__u8e3s4.toLowerCase() === 'true';
+    } else {
+      tmp = false;
+    }
+    return tmp;
+  }
   function toString_3(_this__u8e3s4, radix) {
     // Inline function 'kotlin.js.asDynamic' call
     return _this__u8e3s4.toString(checkRadix(radix));
@@ -23350,60 +23361,62 @@ if (typeof String.prototype.startsWith === 'undefined') {
   _.$_$.wc = substringAfter;
   _.$_$.xc = substringAfter_0;
   _.$_$.yc = substringBefore;
-  _.$_$.zc = toIntOrNull;
-  _.$_$.ad = toLongOrNull;
-  _.$_$.bd = toString_2;
-  _.$_$.cd = trimIndent;
-  _.$_$.dd = trimStart;
-  _.$_$.ed = trim_0;
-  _.$_$.fd = Duration;
-  _.$_$.gd = toDuration;
-  _.$_$.hd = toDuration_0;
-  _.$_$.id = Annotation;
-  _.$_$.jd = Char;
-  _.$_$.kd = Comparator;
-  _.$_$.ld = Enum;
-  _.$_$.md = Error_0;
-  _.$_$.nd = Exception;
-  _.$_$.od = IllegalArgumentException;
-  _.$_$.pd = IllegalStateException;
-  _.$_$.qd = Long;
-  _.$_$.rd = NoSuchElementException;
-  _.$_$.sd = Number_0;
-  _.$_$.td = Pair;
-  _.$_$.ud = Result;
-  _.$_$.vd = RuntimeException;
-  _.$_$.wd = THROW_CCE;
-  _.$_$.xd = THROW_IAE;
-  _.$_$.yd = THROW_ISE;
-  _.$_$.zd = Triple;
-  _.$_$.ae = UByteArray;
-  _.$_$.be = UByte;
-  _.$_$.ce = UIntArray;
-  _.$_$.de = UInt;
-  _.$_$.ee = ULongArray;
-  _.$_$.fe = ULong;
-  _.$_$.ge = UShortArray;
-  _.$_$.he = UShort;
-  _.$_$.ie = Unit;
-  _.$_$.je = UnsupportedOperationException;
-  _.$_$.ke = addSuppressed;
-  _.$_$.le = countOneBits;
-  _.$_$.me = countTrailingZeroBits;
-  _.$_$.ne = createFailure;
-  _.$_$.oe = ensureNotNull;
-  _.$_$.pe = lazy_0;
-  _.$_$.qe = lazy;
-  _.$_$.re = noWhenBranchMatchedException;
-  _.$_$.se = printStackTrace;
-  _.$_$.te = rotateLeft;
-  _.$_$.ue = rotateRight;
-  _.$_$.ve = takeLowestOneBit;
-  _.$_$.we = throwKotlinNothingValueException;
-  _.$_$.xe = throwUninitializedPropertyAccessException;
-  _.$_$.ye = toString_0;
-  _.$_$.ze = to;
-  _.$_$.af = asList_0;
+  _.$_$.zc = toBoolean;
+  _.$_$.ad = toIntOrNull;
+  _.$_$.bd = toInt;
+  _.$_$.cd = toLongOrNull;
+  _.$_$.dd = toString_2;
+  _.$_$.ed = trimIndent;
+  _.$_$.fd = trimStart;
+  _.$_$.gd = trim_0;
+  _.$_$.hd = Duration;
+  _.$_$.id = toDuration;
+  _.$_$.jd = toDuration_0;
+  _.$_$.kd = Annotation;
+  _.$_$.ld = Char;
+  _.$_$.md = Comparator;
+  _.$_$.nd = Enum;
+  _.$_$.od = Error_0;
+  _.$_$.pd = Exception;
+  _.$_$.qd = IllegalArgumentException;
+  _.$_$.rd = IllegalStateException;
+  _.$_$.sd = Long;
+  _.$_$.td = NoSuchElementException;
+  _.$_$.ud = Number_0;
+  _.$_$.vd = Pair;
+  _.$_$.wd = Result;
+  _.$_$.xd = RuntimeException;
+  _.$_$.yd = THROW_CCE;
+  _.$_$.zd = THROW_IAE;
+  _.$_$.ae = THROW_ISE;
+  _.$_$.be = Triple;
+  _.$_$.ce = UByteArray;
+  _.$_$.de = UByte;
+  _.$_$.ee = UIntArray;
+  _.$_$.fe = UInt;
+  _.$_$.ge = ULongArray;
+  _.$_$.he = ULong;
+  _.$_$.ie = UShortArray;
+  _.$_$.je = UShort;
+  _.$_$.ke = Unit;
+  _.$_$.le = UnsupportedOperationException;
+  _.$_$.me = addSuppressed;
+  _.$_$.ne = countOneBits;
+  _.$_$.oe = countTrailingZeroBits;
+  _.$_$.pe = createFailure;
+  _.$_$.qe = ensureNotNull;
+  _.$_$.re = lazy_0;
+  _.$_$.se = lazy;
+  _.$_$.te = noWhenBranchMatchedException;
+  _.$_$.ue = printStackTrace;
+  _.$_$.ve = rotateLeft;
+  _.$_$.we = rotateRight;
+  _.$_$.xe = takeLowestOneBit;
+  _.$_$.ye = throwKotlinNothingValueException;
+  _.$_$.ze = throwUninitializedPropertyAccessException;
+  _.$_$.af = toString_0;
+  _.$_$.bf = to;
+  _.$_$.cf = asList_0;
   //endregion
   return _;
 }));
