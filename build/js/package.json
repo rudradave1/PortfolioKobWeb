@@ -1,0 +1,17 @@
+{
+  "name": "kotfolio",
+  "version": "unspecified",
+  "private": true,
+  "workspaces": [
+    "packages\\kotfolio",
+    "packages\\kotfolio-test",
+    "packages_imported\\html-core-js\\1.5.11",
+    "packages_imported\\kotlin-test-js-runner\\0.0.1"
+  ],
+  "resolutions": {},
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

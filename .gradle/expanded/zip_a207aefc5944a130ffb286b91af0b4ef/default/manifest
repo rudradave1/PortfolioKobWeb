@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=JS
+compiler_version=1.9.21
+depends=com.varabyte.kobweb\:compose-html-ext org.jetbrains.kotlin\:kotlin-dom-api-compat org.jetbrains.compose.html\:html-core org.jetbrains.compose.html\:internal-html-core-runtime org.jetbrains.compose.runtime\:runtime org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu kotlin org.jetbrains.kotlin\:kotlinx-atomicfu-runtime
+ir_signature_versions=1,2
+jsOutputName=kobweb-frontend-kobweb-compose
+metadata_version=1.4.1
+serializedIrFileFingerprints=24q3ji78nczov.3bg9jpoue71og 2jutjw4ho3n8g.gtuei5dq1xit 1vznifx41w5o2.ud6vsl6l22ua zgphv6ko9oiw.7ege3z7ew4e5 7dbljylk5kin.3v229qvj1uetb nrg5f481w5md.2y2ynot5mb557 1blpynnd4cew.24mew8hzmvq68 9anpbkdevwux.1xuy4v469i75h 6g951pdlapdu.1ib703r3whryp xyzo8fifstzm.2ruan4iiqmdte 2q597kstub5v2.6bvepbom1gn4 1trtvha5rbp0l.18h9m337vb8o9 j9168gaix3fp.2r7qm4h5l4e4f yve9lgzz7uod.2mttritze682p 175o80h36oxyp.12h0w0cwid03v xdsnxu1v40h8.f22dllh6lvy8 2ghouimgcapzc.2b5j6bkf3xh00 3ndfj0y4kybu1.gouk016gshf 103kl36pdcwqf.2wm3ahnmzldzy 14d1xwud7c0t4.2ysez03ekqjce 2m5k6luuvoxwn.27u23t5nke65w 2ecir19otz03k.9zvvkxmz0gxm hlqv678h6huc.1nh02r64clnu9 3411tzl90sjs4.2mkgldgkixuzn ul7q4jwly44h.35lznka6b29js 3pkkrzt7nwrtt.1ww4q1p216twm t08qh9e3cum0.2lzr1y0wc6zay 3nhb9jlt6uhvq.g0qkoux8e689 31eqyh65whh50.85jy1eqhfkt9 6xpy4sf007ny.2gflcl0vupdqb 10nbon5ei9q82.1rm6ipyfxuq8t rjhy24bym8gz.1virblpasro77 2269ceblr5v9w.1aarsfpjy6z1w 29bhtwrxgkqre.6zgp8o6mpgtv 2a1mr4ldgfm3h.2doatj7t74j4q oztbb2wff39t.3r8qvkquxk9b9 3o7d13nl5e7ou.3tbdetfb42lxw 2zwolh5kw4t3v.ms88xibzar3l pdsfzaeds10j.prt165uxgkxo qcb11sitgxq2.3pnl3lzg3sl6p zs5uetpj0gkq.hoo44ocqz9pm 3hq86ed30tkrq.34xxnqzbfvlua
+serializedKlibFingerprint=tur5c62pv5j5.acfdnlpw6ew3
+unique_name=com.varabyte.kobweb\:kobweb-compose

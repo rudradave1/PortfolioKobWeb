@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=JS
+compiler_version=1.9.21
+depends=org.jetbrains.kotlinx\:kotlinx-serialization-core org.jetbrains.kotlin\:kotlin-dom-api-compat kotlin
+ir_signature_versions=1,2
+jsOutputName=kobweb-common-client-server-models
+metadata_version=1.4.1
+serializedIrFileFingerprints=3db6xmjoal2be.3eromr09ioskb
+serializedKlibFingerprint=cb29cic86cj1.1a9uq4wtxc66c
+unique_name=com.varabyte.kobweb\:client-server-models

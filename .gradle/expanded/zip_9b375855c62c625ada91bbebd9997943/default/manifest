@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=JS
+compiler_version=1.9.21
+depends=com.varabyte.kobweb\:kobweb-core com.varabyte.kobweb\:compose-html-ext org.jetbrains.kotlin\:kotlin-dom-api-compat org.jetbrains.compose.html\:html-core org.jetbrains.compose.html\:internal-html-core-runtime org.jetbrains.compose.runtime\:runtime org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu kotlin org.jetbrains.kotlin\:kotlinx-atomicfu-runtime
+ir_signature_versions=1,2
+jsOutputName=kobweb-frontend-kobwebx-markdown
+metadata_version=1.4.1
+serializedIrFileFingerprints=2ekuvcyydw2eb.1k17wg2vz8lb2
+serializedKlibFingerprint=l2xkeyeugugp.pbcbfvd97xa5
+unique_name=com.varabyte.kobwebx\:kobwebx-markdown

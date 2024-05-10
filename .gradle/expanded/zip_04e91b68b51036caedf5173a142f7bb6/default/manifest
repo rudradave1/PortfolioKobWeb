@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=JS
+compiler_version=1.9.21
+depends=com.varabyte.kobweb\:silk-widgets com.varabyte.kobweb\:kobweb-core com.varabyte.kobweb\:silk-foundation com.varabyte.kobweb\:kobweb-compose com.varabyte.kobweb\:compose-html-ext org.jetbrains.kotlin\:kotlin-dom-api-compat org.jetbrains.compose.html\:html-core org.jetbrains.compose.html\:internal-html-core-runtime org.jetbrains.compose.runtime\:runtime org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu kotlin org.jetbrains.kotlin\:kotlinx-atomicfu-runtime
+ir_signature_versions=1,2
+jsOutputName=kobweb-frontend-silk-widgets-kobweb
+metadata_version=1.4.1
+serializedIrFileFingerprints=bkoxjg5lwcwx.36y51apojyyh4 r5bpk7t5xxji.18b3hx2uu4bgi 2u7qbltntdavz.rfe5gdr0lz11 n2umlteiav8i.3ia2gzy3frba6 1divjp1pt4pbp.2ptditn8rbm82
+serializedKlibFingerprint=2uuywa7a5upxe.1pljyd8lm5pi6
+unique_name=com.varabyte.kobweb\:silk-widgets-kobweb

@@ -1,0 +1,70 @@
+{
+  "version": "9",
+  "items": {
+    "e28362e5c801fe4ce307a04ef837a746": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-js\\1.9.21\\8339a3076c84fa3fceebf57ff96f612afd40d2b4\\kotlin-stdlib-js-1.9.21.klib"
+    },
+    "0d5a67a5998ac8549b65b9af7b8bb281": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.runtime\\runtime-js\\1.5.11\\c0717d615e7a7785fa96fbad1918a35b297650fe\\runtime-js-1.5.11.klib"
+    },
+    "87b37b026e9680692b36e7c4c08334c2": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-core-js\\1.6.4\\791d62c16e6fad7cc9b1e6fafe88a3d454744d99\\kotlinx-coroutines-core-jsir-1.6.4.klib"
+    },
+    "489089308e6bacd4b18fc93c501bb01c": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\atomicfu-js\\0.17.3\\5fd992f78532945e29a1c54279eafffe2a0c95fe\\atomicfu-jsir-0.17.3.klib"
+    },
+    "c31d4b86f871ee648d47c66548fbfa57": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-common\\1.9.0\\cd65c21cfd1eec4d44ef09f9f52b6d9f8a720636\\kotlin-stdlib-common-1.9.0.jar"
+    },
+    "68b4fc3260b20bef86b65f0a39fae75a": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\atomicfu\\1.6.21\\f486917a9c89e5c7d5d08009d58ad810a57a7011\\atomicfu-1.6.21.jar"
+    },
+    "b50857453dcb30a49d765d6aca822dfe": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-dom-api-compat\\1.9.21\\3c0ac04445c1aeec4366d69e1791cd6ad31ddc07\\kotlin-dom-api-compat-1.9.21.klib"
+    },
+    "97ccb8a17f206a99b0e822a1c5c97058": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.html\\html-core-js\\1.5.11\\ea514fb28b920413dacd3744333c6bf00db101b6\\html-core-js-1.5.11.klib",
+      "target": "html-core-js\\1.5.11"
+    },
+    "627a87325e006024cc4b82d96a1fc30e": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.html\\internal-html-core-runtime-js\\1.5.11\\7dd7872fa194cd87edc708a4e0523cfb687ab1e6\\internal-html-core-runtime-js-1.5.11.klib"
+    },
+    "868d427ba8a9adaefcfac049d153ecb2": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-core\\0.15.3\\b9fa15cd88c6d9d04f17628d2b1be1ac72bd3423\\kobweb-core-js-0.15.3.klib"
+    },
+    "c12fcfa9b242e142c596e7483b0672e3": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\compose-html-ext\\0.15.3\\423786d4417ffc7b87961ba13f360d22880691b3\\compose-html-ext-js-0.15.3.klib"
+    },
+    "0ffdceb4847380e2dcfbd909170a9a1d": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-serialization-json-js\\1.6.0\\8da0ad64ba616b5274fc5cdc07656912e1eea71d\\kotlinx-serialization-json-js-1.6.0.klib"
+    },
+    "d356df8ed21c63fbacf8d7ef87b6eaa0": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-serialization-core-js\\1.6.0\\bb589ecd997c9b459f15b06ff4639bc6cabf522d\\kotlinx-serialization-core-js-1.6.0.klib"
+    },
+    "5d1d9d2bd9adfc87de1c1b2bef5757cd": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-client-server-models-js\\0.15.3\\6777a273cf8bfce209037fcc1a4a0ad47f029481\\client-server-models-js-0.15.3.klib"
+    },
+    "9e9e5e9b99f302d75bb440d0c640ac3c": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-silk\\0.15.3\\8da8355014c55fb3b1ecee493ff24c15a751cbf1\\kobweb-silk-js-0.15.3.klib"
+    },
+    "04e91b68b51036caedf5173a142f7bb6": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\silk-widgets-kobweb\\0.15.3\\f3e3b7b16f592dfbcdb554375060f7ae7a5792cb\\silk-widgets-kobweb-js-0.15.3.klib"
+    },
+    "4d9a96ba59ce393684f508f32ff5d327": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\silk-widgets\\0.15.3\\25978f57c00dcb49fe63d9b886e71d821b59ba85\\silk-widgets-js-0.15.3.klib"
+    },
+    "ccc7392072e0dbff6e8528e5eb5ebca0": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\silk-foundation\\0.15.3\\937ccf91cbc69eeb17e49f05f2fe13649dd6920a\\silk-foundation-js-0.15.3.klib"
+    },
+    "a207aefc5944a130ffb286b91af0b4ef": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-compose\\0.15.3\\7a21639f49b61c8e19456a0193d157a19e902fd3\\kobweb-compose-js-0.15.3.klib"
+    },
+    "9b375855c62c625ada91bbebd9997943": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobwebx\\kobwebx-markdown\\0.15.3\\da414fd92189e23890e812a9422912881f59283e\\kobwebx-markdown-js-0.15.3.klib"
+    },
+    "a66860f155cb10a237acb5f7d0f6d0e3": {
+      "src": "C:\\Users\\rdRud\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-js-runner\\1.9.21\\e9b1fc55af69eb09d63b271d17c217d9483241cc\\kotlin-test-js-runner-1.9.21.jar",
+      "target": "kotlin-test-js-runner\\0.0.1"
+    }
+  }
+}
