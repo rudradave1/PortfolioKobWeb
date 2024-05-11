@@ -7019,11 +7019,33 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(-2004572059, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-1.<anonymous> (SkillsAndTools.kt:52)');
+        traceEventStart(-2004572059, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-1.<anonymous> (SkillsAndTools.kt:53)');
+      }
+      var tmp = Images_getInstance().get_ANDROID_LOGO_qy9g4k_k$();
+      var tmp_0 = size(Companion_getInstance_3(), get_px(42));
+      Image$composable(tmp, tmp_0, null, null, null, null, false, null, $composer_0, 6, 252);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    return Unit_getInstance();
+  }
+  function ComposableLambda$invoke$ref_116($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function ComposableSingletons$SkillsAndToolsKt$lambda_2$lambda_uce21l($this$GlassBox, $composer, $changed) {
+    var $composer_0 = $composer;
+    if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
+      if (isTraceInProgress()) {
+        traceEventStart(1443125788, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-2.<anonymous> (SkillsAndTools.kt:62)');
       }
       var tmp = Images_getInstance().get_KOTLIN_LOGO_miri68_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
-      $composer_0.startReplaceableGroup_ip860b_k$(616838248);
+      $composer_0.startReplaceableGroup_ip860b_k$(616838611);
       // Inline function 'androidx.compose.runtime.cache' call
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.contracts.contract' call
@@ -7031,8 +7053,8 @@
       var it = $composer_0.rememberedValue_4dg93v_k$();
       var tmp_1;
       if (false ? true : it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        // Inline function 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-1.<anonymous>.<anonymous>' call
-        var value = ComposableSingletons$SkillsAndToolsKt$lambda_1$lambda$lambda_gw9581;
+        // Inline function 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-2.<anonymous>.<anonymous>' call
+        var value = ComposableSingletons$SkillsAndToolsKt$lambda_2$lambda$lambda_t7auby;
         $composer_0.updateRememberedValue_l1wh71_k$(value);
         tmp_1 = value;
       } else {
@@ -7051,30 +7073,8 @@
     }
     return Unit_getInstance();
   }
-  function ComposableSingletons$SkillsAndToolsKt$lambda_1$lambda$lambda_gw9581($this$styleModifier) {
+  function ComposableSingletons$SkillsAndToolsKt$lambda_2$lambda$lambda_t7auby($this$styleModifier) {
     mixBlendMode($this$styleModifier, Companion_getInstance_18().get_Normal_22avww_k$());
-    return Unit_getInstance();
-  }
-  function ComposableLambda$invoke$ref_116($boundThis) {
-    return function (p0, p1, p2) {
-      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
-    };
-  }
-  function ComposableSingletons$SkillsAndToolsKt$lambda_2$lambda_uce21l($this$GlassBox, $composer, $changed) {
-    var $composer_0 = $composer;
-    if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
-      if (isTraceInProgress()) {
-        traceEventStart(1443125788, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-2.<anonymous> (SkillsAndTools.kt:65)');
-      }
-      var tmp = Images_getInstance().get_JAVA_LOGO_tw29dt_k$();
-      var tmp_0 = size(Companion_getInstance_3(), get_px(42));
-      Image$composable(tmp, tmp_0, null, null, null, null, false, null, $composer_0, 6, 252);
-      if (isTraceInProgress()) {
-        traceEventEnd();
-      }
-    } else {
-      $composer_0.skipToGroupEnd_lh3zi2_k$();
-    }
     return Unit_getInstance();
   }
   function ComposableLambda$invoke$ref_117($boundThis) {
@@ -7088,7 +7088,7 @@
       if (isTraceInProgress()) {
         traceEventStart(-1808053539, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-3.<anonymous> (SkillsAndTools.kt:75)');
       }
-      var tmp = Images_getInstance().get_HTML_LOGO_og9qty_k$();
+      var tmp = Images_getInstance().get_JAVA_LOGO_tw29dt_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
       Image$composable(tmp, tmp_0, null, null, null, null, false, null, $composer_0, 6, 252);
       if (isTraceInProgress()) {
@@ -7110,7 +7110,7 @@
       if (isTraceInProgress()) {
         traceEventStart(-764265570, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-4.<anonymous> (SkillsAndTools.kt:85)');
       }
-      var tmp = Images_getInstance().get_CSS_LOGO_x08ggg_k$();
+      var tmp = Images_getInstance().get_HTML_LOGO_og9qty_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
       Image$composable(tmp, tmp_0, null, null, null, null, false, null, $composer_0, 6, 252);
       if (isTraceInProgress()) {
@@ -7130,9 +7130,9 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(279522399, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-5.<anonymous> (SkillsAndTools.kt:96)');
+        traceEventStart(279522399, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-5.<anonymous> (SkillsAndTools.kt:95)');
       }
-      var tmp = Images_getInstance().get_JAVASCRIPT_LOGO_s33sk4_k$();
+      var tmp = Images_getInstance().get_CSS_LOGO_x08ggg_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
       Image$composable(tmp, tmp_0, null, null, null, null, false, null, $composer_0, 6, 252);
       if (isTraceInProgress()) {
@@ -7154,7 +7154,7 @@
       if (isTraceInProgress()) {
         traceEventStart(1323310368, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-6.<anonymous> (SkillsAndTools.kt:106)');
       }
-      var tmp = Images_getInstance().get_DOCKER_LOGO_dsml8h_k$();
+      var tmp = Images_getInstance().get_JAVASCRIPT_LOGO_s33sk4_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
       Image$composable(tmp, tmp_0, null, null, null, null, false, null, $composer_0, 6, 252);
       if (isTraceInProgress()) {
@@ -7227,7 +7227,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(-207156146, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-9.<anonymous> (SkillsAndTools.kt:127)');
+        traceEventStart(-207156146, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-9.<anonymous> (SkillsAndTools.kt:126)');
       }
       var tmp = Images_getInstance().get_ANDROID_LOGO_qy9g4k_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
@@ -7249,7 +7249,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(1610689605, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-10.<anonymous> (SkillsAndTools.kt:137)');
+        traceEventStart(1610689605, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-10.<anonymous> (SkillsAndTools.kt:136)');
       }
       var tmp = Images_getInstance().get_INTELLIJ_LOGO_z2nkju_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
@@ -7271,7 +7271,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(-331419450, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-11.<anonymous> (SkillsAndTools.kt:147)');
+        traceEventStart(-331419450, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-11.<anonymous> (SkillsAndTools.kt:146)');
       }
       var tmp = Images_getInstance().get_FIGMA_LOGO_295bhh_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
@@ -7293,7 +7293,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(2021438791, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-12.<anonymous> (SkillsAndTools.kt:157)');
+        traceEventStart(2021438791, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-12.<anonymous> (SkillsAndTools.kt:156)');
       }
       var tmp = Images_getInstance().get_FIREBASE_LOGO_bktfi2_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
@@ -7315,9 +7315,9 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(79329736, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-13.<anonymous> (SkillsAndTools.kt:167)');
+        traceEventStart(79329736, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-13.<anonymous> (SkillsAndTools.kt:166)');
       }
-      var tmp = Images_getInstance().get_MONGODB_LOGO_vqgkw1_k$();
+      var tmp = Images_getInstance().get_VSCODE_LOGO_dhmoy1_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
       Image$composable(tmp, tmp_0, null, null, null, null, false, null, $composer_0, 6, 252);
       if (isTraceInProgress()) {
@@ -7337,9 +7337,9 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(-1862779319, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-14.<anonymous> (SkillsAndTools.kt:177)');
+        traceEventStart(-1862779319, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-14.<anonymous> (SkillsAndTools.kt:176)');
       }
-      var tmp = Images_getInstance().get_VSCODE_LOGO_dhmoy1_k$();
+      var tmp = Images_getInstance().get_GIT_LOGO_1zt4v5_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
       Image$composable(tmp, tmp_0, null, null, null, null, false, null, $composer_0, 6, 252);
       if (isTraceInProgress()) {
@@ -7359,9 +7359,9 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(490078922, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-15.<anonymous> (SkillsAndTools.kt:187)');
+        traceEventStart(490078922, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-15.<anonymous> (SkillsAndTools.kt:186)');
       }
-      var tmp = Images_getInstance().get_GIT_LOGO_1zt4v5_k$();
+      var tmp = Images_getInstance().get_POSTMAN_LOGO_yigl15_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
       Image$composable(tmp, tmp_0, null, null, null, null, false, null, $composer_0, 6, 252);
       if (isTraceInProgress()) {
@@ -7381,9 +7381,9 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(-1452030133, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-16.<anonymous> (SkillsAndTools.kt:197)');
+        traceEventStart(-1452030133, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-16.<anonymous> (SkillsAndTools.kt:196)');
       }
-      var tmp = Images_getInstance().get_POSTMAN_LOGO_yigl15_k$();
+      var tmp = Images_getInstance().get_DOCKER_LOGO_dsml8h_k$();
       var tmp_0 = size(Companion_getInstance_3(), get_px(42));
       Image$composable(tmp, tmp_0, null, null, null, null, false, null, $composer_0, 6, 252);
       if (isTraceInProgress()) {
@@ -7403,7 +7403,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 11) === 2) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(1762776242, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-17.<anonymous> (SkillsAndTools.kt:122)');
+        traceEventStart(1762776242, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-17.<anonymous> (SkillsAndTools.kt:121)');
       }
       var tmp = margin_2(size(Companion_getInstance_3(), get_px(65)), get_cssRem(0.6));
       GlassBox$composable(tmp, null, null, null, null, null, null, null, null, ComposableSingletons$SkillsAndToolsKt_getInstance().lambda_9_r8sbbh_1, $composer_0, 805306368, 510);
@@ -7438,7 +7438,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.get_skipping_3owdve_k$()) {
       if (isTraceInProgress()) {
-        traceEventStart(1446641161, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-18.<anonymous> (SkillsAndTools.kt:118)');
+        traceEventStart(1446641161, $changed, -1, 'com.rudra.kotfolio.components.sections.ComposableSingletons$SkillsAndToolsKt.lambda-18.<anonymous> (SkillsAndTools.kt:117)');
       }
       var tmp0_modifier = padding(Companion_getInstance_3(), get_cssRem(1));
       var tmp1_numColumns = numColumns(2, 2, 3, 4);
@@ -10308,14 +10308,13 @@
     this.TWITTER_URL_1 = 'https://twitter.com/RudraKDave';
     this.MEDIUM_URL_1 = 'https://medium.com/@rudradave';
     this.MAIL_TO_1 = 'mailto:rudramordan@gmail.com';
-    this.PROJECT_READBUD_URL_1 = 'https://github.com/rudradave1/TriviaApp';
-    this.PROJECT_JUSTAP_URL_1 = 'https://github.com/rudradave1/Fhotos';
-    this.PROJECT_MEDIFY_URL_1 = 'https://github.com/rudradave1/DefineEasy';
-    this.PROJECT_PASSGENIE_URL_1 = 'https://github.com/rudradave1/TriviaApp';
-    this.PROJECT_PRESIN_URL_1 = 'https://github.com/rudradave1/OpenWeatherApp';
-    this.HELLO_IM_1 = "Hello I'm";
+    this.PROJECT_TRIVIA_URL_1 = 'https://github.com/rudradave1/TriviaApp';
+    this.PROJECT_FHOTOS_URL_1 = 'https://github.com/rudradave1/Fhotos';
+    this.PROJECT_DEFINE_EASY_URL_1 = 'https://github.com/rudradave1/DefineEasy';
+    this.PROJECT_WEATHER_URL_1 = 'https://github.com/rudradave1/OpenWeatherApp';
+    this.HELLO_IM_1 = "I'm";
     this.RUDRA_DAVE_1 = 'Rudra Dave';
-    this.AND_NICE_TO_MEET_YOU_1 = 'and Nice to meet you!';
+    this.AND_NICE_TO_MEET_YOU_1 = 'Android Developer';
     this.RESUME_1 = 'Resume';
     this.ABOUT_ME_TEXT_1 = "With four years of experience, Rudra is a proficient Android developer, adept in Java/Kotlin and the Android ecosystem. Committed to continual improvement, he stays updated with the latest developments to enhance user experiences. Rudra's attention to detail ensures his apps stand out with seamless functionality and user satisfaction.";
     this.ABOUT_ME_TITLE_1 = 'About me.';
@@ -10348,20 +10347,17 @@
   protoOf(Constants).get_MAIL_TO_qvrw2i_k$ = function () {
     return this.MAIL_TO_1;
   };
-  protoOf(Constants).get_PROJECT_READBUD_URL_pvxizg_k$ = function () {
-    return this.PROJECT_READBUD_URL_1;
+  protoOf(Constants).get_PROJECT_TRIVIA_URL_b0u2u6_k$ = function () {
+    return this.PROJECT_TRIVIA_URL_1;
   };
-  protoOf(Constants).get_PROJECT_JUSTAP_URL_pz6jba_k$ = function () {
-    return this.PROJECT_JUSTAP_URL_1;
+  protoOf(Constants).get_PROJECT_FHOTOS_URL_h4eeqe_k$ = function () {
+    return this.PROJECT_FHOTOS_URL_1;
   };
-  protoOf(Constants).get_PROJECT_MEDIFY_URL_6opy5t_k$ = function () {
-    return this.PROJECT_MEDIFY_URL_1;
+  protoOf(Constants).get_PROJECT_DEFINE_EASY_URL_g9i36h_k$ = function () {
+    return this.PROJECT_DEFINE_EASY_URL_1;
   };
-  protoOf(Constants).get_PROJECT_PASSGENIE_URL_p0ngfw_k$ = function () {
-    return this.PROJECT_PASSGENIE_URL_1;
-  };
-  protoOf(Constants).get_PROJECT_PRESIN_URL_f35ix8_k$ = function () {
-    return this.PROJECT_PRESIN_URL_1;
+  protoOf(Constants).get_PROJECT_WEATHER_URL_70ov9n_k$ = function () {
+    return this.PROJECT_WEATHER_URL_1;
   };
   protoOf(Constants).get_HELLO_IM_vywciu_k$ = function () {
     return this.HELLO_IM_1;
@@ -10475,7 +10471,7 @@
     return CustomColorSchemes_instance;
   }
   function getAllProjects() {
-    return listOf([new Pair(Images_getInstance().get_PROJECT_READBUD_zfaaj0_k$(), Constants_getInstance().get_PROJECT_READBUD_URL_pvxizg_k$()), new Pair(Images_getInstance().get_PROJECT_JUSTAP_ifibiu_k$(), Constants_getInstance().get_PROJECT_JUSTAP_URL_pz6jba_k$()), new Pair(Images_getInstance().get_PROJECT_PASSGENIE_m0h6r0_k$(), Constants_getInstance().get_PROJECT_PASSGENIE_URL_p0ngfw_k$()), new Pair(Images_getInstance().get_PROJECT_MEDIFY_h9fyo1_k$(), Constants_getInstance().get_PROJECT_MEDIFY_URL_6opy5t_k$()), new Pair(Images_getInstance().get_PROJECT_PRESIN_fn4xb0_k$(), Constants_getInstance().get_PROJECT_PRESIN_URL_f35ix8_k$())]);
+    return listOf([new Pair(Images_getInstance().get_PROJECT_TRIVIA_dqvtke_k$(), Constants_getInstance().get_PROJECT_TRIVIA_URL_b0u2u6_k$()), new Pair(Images_getInstance().get_PROJECT_DEFINEEASY_cnapxo_k$(), Constants_getInstance().get_PROJECT_DEFINE_EASY_URL_g9i36h_k$()), new Pair(Images_getInstance().get_PROJECT_FHOTOS_kiwofa_k$(), Constants_getInstance().get_PROJECT_FHOTOS_URL_h4eeqe_k$()), new Pair(Images_getInstance().get_PROJECT_WEATHER_x8o2fv_k$(), Constants_getInstance().get_PROJECT_WEATHER_URL_70ov9n_k$())]);
   }
   function getAllWorkExperience() {
     return listOf([new WorkExperience('01', 'Software Developer - Android', 'Encender Technologies', 'Mar 2020 - Aug 2021'), new WorkExperience('02', 'Software Engineer', 'Capgemini', 'Sep 2021 - Apr 2022'), new WorkExperience('03', 'Android Developer', 'Yore', 'Apr 2022 - Present')]);
@@ -10515,11 +10511,10 @@
     this.LINKEDIN_1 = 'images/Socials/linkedin.svg';
     this.MEDIUM_1 = 'images/Socials/medium.svg';
     this.TWITTER_X_1 = 'images/Socials/twitter-x.svg';
-    this.PROJECT_JUSTAP_1 = 'images/Projects/defineEasy.png';
-    this.PROJECT_MEDIFY_1 = 'images/Projects/defineEasy.png';
-    this.PROJECT_PASSGENIE_1 = 'images/Projects/defineEasy.png';
-    this.PROJECT_PRESIN_1 = 'images/Projects/defineEasy.png';
-    this.PROJECT_READBUD_1 = 'images/Projects/defineEasy.png';
+    this.PROJECT_DEFINEEASY_1 = 'images/Projects/defineEasy.png';
+    this.PROJECT_FHOTOS_1 = 'images/Projects/fhotosfull.png';
+    this.PROJECT_TRIVIA_1 = 'images/Projects/triviafull.png';
+    this.PROJECT_WEATHER_1 = 'images/Projects/weatherfull.png';
     this.$stable_1 = 0;
   }
   protoOf(Images).get_BACKGROUND_CIRCLES_wnx88r_k$ = function () {
@@ -10594,20 +10589,17 @@
   protoOf(Images).get_TWITTER_X_ir55x9_k$ = function () {
     return this.TWITTER_X_1;
   };
-  protoOf(Images).get_PROJECT_JUSTAP_ifibiu_k$ = function () {
-    return this.PROJECT_JUSTAP_1;
+  protoOf(Images).get_PROJECT_DEFINEEASY_cnapxo_k$ = function () {
+    return this.PROJECT_DEFINEEASY_1;
   };
-  protoOf(Images).get_PROJECT_MEDIFY_h9fyo1_k$ = function () {
-    return this.PROJECT_MEDIFY_1;
+  protoOf(Images).get_PROJECT_FHOTOS_kiwofa_k$ = function () {
+    return this.PROJECT_FHOTOS_1;
   };
-  protoOf(Images).get_PROJECT_PASSGENIE_m0h6r0_k$ = function () {
-    return this.PROJECT_PASSGENIE_1;
+  protoOf(Images).get_PROJECT_TRIVIA_dqvtke_k$ = function () {
+    return this.PROJECT_TRIVIA_1;
   };
-  protoOf(Images).get_PROJECT_PRESIN_fn4xb0_k$ = function () {
-    return this.PROJECT_PRESIN_1;
-  };
-  protoOf(Images).get_PROJECT_READBUD_zfaaj0_k$ = function () {
-    return this.PROJECT_READBUD_1;
+  protoOf(Images).get_PROJECT_WEATHER_x8o2fv_k$ = function () {
+    return this.PROJECT_WEATHER_1;
   };
   var Images_instance;
   function Images_getInstance() {

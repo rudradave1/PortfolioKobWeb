@@ -4,11 +4,10 @@ import com.rudra.kotfolio.components.model.WorkExperience
 
 fun getAllProjects() =
     listOf(
-        Pair(Res.Images.PROJECT_READBUD, Constants.PROJECT_READBUD_URL),
-        Pair(Res.Images.PROJECT_JUSTAP, Constants.PROJECT_JUSTAP_URL),
-        Pair(Res.Images.PROJECT_PASSGENIE, Constants.PROJECT_PASSGENIE_URL),
-        Pair(Res.Images.PROJECT_MEDIFY, Constants.PROJECT_MEDIFY_URL),
-        Pair(Res.Images.PROJECT_PRESIN, Constants.PROJECT_PRESIN_URL)
+        Pair(Res.Images.PROJECT_TRIVIA, Constants.PROJECT_TRIVIA_URL),
+        Pair(Res.Images.PROJECT_DEFINEEASY, Constants.PROJECT_DEFINE_EASY_URL),
+        Pair(Res.Images.PROJECT_FHOTOS, Constants.PROJECT_FHOTOS_URL),
+        Pair(Res.Images.PROJECT_WEATHER, Constants.PROJECT_WEATHER_URL)
     )
 
 fun getAllWorkExperience() = listOf(

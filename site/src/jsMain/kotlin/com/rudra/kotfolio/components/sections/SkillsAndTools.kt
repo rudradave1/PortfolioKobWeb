@@ -49,6 +49,16 @@ fun SkillsAndTools() {
                     GlassBox(
                         modifier = Modifier.size(65.px)
                             .margin(all = 0.6.cssRem)
+
+                    ) {
+                        Image(
+                            src = Res.Images.ANDROID_LOGO,
+                            modifier = Modifier.size(42.px)
+                        )
+                    }
+                    GlassBox(
+                        modifier = Modifier.size(65.px)
+                            .margin(all = 0.6.cssRem)
                     ) {
                         Image(
                             src = Res.Images.KOTLIN_LOGO,
@@ -99,17 +109,6 @@ fun SkillsAndTools() {
                             modifier = Modifier.size(42.px)
                         )
                     }
-                    GlassBox(
-                        modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
-                    ) {
-                        Image(
-                            src = Res.Images.DOCKER_LOGO,
-                            modifier = Modifier.size(42.px)
-                        )
-                    }
-
                 }
             }
 
@@ -166,16 +165,6 @@ fun SkillsAndTools() {
 
                     ) {
                         Image(
-                            src = Res.Images.MONGODB_LOGO,
-                            modifier = Modifier.size(42.px)
-                        )
-                    }
-                    GlassBox(
-                        modifier = Modifier.size(65.px)
-                            .margin(all = 0.6.cssRem)
-
-                    ) {
-                        Image(
                             src = Res.Images.VSCODE_LOGO,
                             modifier = Modifier.size(42.px)
                         )
@@ -197,6 +186,16 @@ fun SkillsAndTools() {
                     ) {
                         Image(
                             src = Res.Images.POSTMAN_LOGO,
+                            modifier = Modifier.size(42.px)
+                        )
+                    }
+                    GlassBox(
+                        modifier = Modifier.size(65.px)
+                            .margin(all = 0.6.cssRem)
+
+                    ) {
+                        Image(
+                            src = Res.Images.DOCKER_LOGO,
                             modifier = Modifier.size(42.px)
                         )
                     }

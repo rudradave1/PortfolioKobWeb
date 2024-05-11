@@ -8,15 +8,14 @@ object Constants {
     const val MEDIUM_URL = "https://medium.com/@rudradave"
     const val MAIL_TO = "mailto:rudramordan@gmail.com"
 
-    const val PROJECT_READBUD_URL = "https://github.com/rudradave1/TriviaApp"
-    const val PROJECT_JUSTAP_URL = "https://github.com/rudradave1/Fhotos"
-    const val PROJECT_MEDIFY_URL = "https://github.com/rudradave1/DefineEasy"
-    const val PROJECT_PASSGENIE_URL = "https://github.com/rudradave1/TriviaApp"
-    const val PROJECT_PRESIN_URL = "https://github.com/rudradave1/OpenWeatherApp"
+    const val PROJECT_TRIVIA_URL = "https://github.com/rudradave1/TriviaApp"
+    const val PROJECT_FHOTOS_URL = "https://github.com/rudradave1/Fhotos"
+    const val PROJECT_DEFINE_EASY_URL = "https://github.com/rudradave1/DefineEasy"
+    const val PROJECT_WEATHER_URL = "https://github.com/rudradave1/OpenWeatherApp"
 
-    const val HELLO_IM = "Hello I'm"
+    const val HELLO_IM = "I'm"
     const val RUDRA_DAVE = "Rudra Dave"
-    const val AND_NICE_TO_MEET_YOU = "and Nice to meet you!"
+    const val AND_NICE_TO_MEET_YOU = "Android Developer"
     const val RESUME = "Resume"
 
     const val ABOUT_ME_TEXT = "With four years of experience, Rudra is a proficient Android developer, adept in Java/Kotlin and the Android ecosystem. Committed to continual improvement, he stays updated with the latest developments to enhance user experiences. Rudra's attention to detail ensures his apps stand out with seamless functionality and user satisfaction."

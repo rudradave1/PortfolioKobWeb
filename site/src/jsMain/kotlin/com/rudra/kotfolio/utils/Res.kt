@@ -37,11 +37,10 @@ object Res {
 
 
         // Projects
-        const val PROJECT_JUSTAP = "images/Projects/defineEasy.png"
-        const val PROJECT_MEDIFY = "images/Projects/defineEasy.png"
-        const val PROJECT_PASSGENIE = "images/Projects/defineEasy.png"
-        const val PROJECT_PRESIN = "images/Projects/defineEasy.png"
-        const val PROJECT_READBUD = "images/Projects/defineEasy.png"
+        const val PROJECT_DEFINEEASY = "images/Projects/defineEasy.png"
+        const val PROJECT_FHOTOS = "images/Projects/fhotosfull.png"
+        const val PROJECT_TRIVIA = "images/Projects/triviafull.png"
+        const val PROJECT_WEATHER = "images/Projects/weatherfull.png"
     }
 
     object Fonts {
