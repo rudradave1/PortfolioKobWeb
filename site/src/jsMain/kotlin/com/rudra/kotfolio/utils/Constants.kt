@@ -1,7 +1,7 @@
 package com.rudra.kotfolio.utils
 
 object Constants {
-    const val RESUME_URL = "https://drive.google.com/file/d/1NVW38k52Gf5i4tpO4v2BnHfBNcAuJSs_/view?usp=sharing"
+    const val RESUME_URL = "https://drive.google.com/file/d/1l18pSu5u19J9jpXFNiRgE7azTXliwb5u/view?usp=drive_link"
     const val LINKEDIN_URL = "https://www.linkedin.com/in/rudradave/"
     const val GITHUB_URL = "https://github.com/rudradave1"
     const val TWITTER_URL = "https://twitter.com/RudraKDave"
